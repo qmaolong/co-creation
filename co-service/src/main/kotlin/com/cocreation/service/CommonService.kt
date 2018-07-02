@@ -5,8 +5,8 @@ import org.springframework.stereotype.Service
 @Service
 class CommonService {
 
-    fun index(){
+    fun index(): String{
         println("Hello")
-        "Welcome To Co-Writing!"
+        return "Welcome To Co-Writing!"
     }
 }
